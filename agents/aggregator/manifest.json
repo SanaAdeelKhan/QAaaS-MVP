@@ -1,0 +1,13 @@
+﻿{
+  "id": "aggregator",
+  "name": "Aggregator Agent",
+  "description": "Aggregates and summarizes outputs from RepoCloner and UnitTest agents",
+  "entry": "index.js",
+  "port": 6003,
+  "endpoints": {
+    "health": "/health",
+    "aggregate": "/aggregate"
+  },
+  "license": "MIT",
+  "author": "Sana Adeel"
+}

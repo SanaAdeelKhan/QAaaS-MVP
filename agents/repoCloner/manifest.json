@@ -1,0 +1,13 @@
+﻿{
+  "id": "repoCloner",
+  "name": "RepoCloner Agent",
+  "description": "Clones git repositories upon request",
+  "entry": "index.js",
+  "port": 6001,
+  "endpoints": {
+    "health": "/health",
+    "clone": "/clone"
+  },
+  "license": "MIT",
+  "author": "Sana Adeel"
+}

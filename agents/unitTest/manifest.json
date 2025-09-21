@@ -1,0 +1,14 @@
+﻿{
+  "id": "unitTest",
+  "name": "unitTest Agent",
+  "description": "Runs unit tests on the code",
+  "version": "0.1.0",
+  "entry": "index.js",
+  "port": 5002,
+  "endpoints": {
+    "health": "/health",
+    "runTests": "/run-tests"
+  },
+  "license": "MIT",
+  "author": "Sana Adeel"
+}

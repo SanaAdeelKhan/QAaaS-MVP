@@ -1,0 +1,8 @@
+id = "repoCloner"
+name = "Repo Cloner"
+version = "0.1.0"
+description = "Clones repositories and prepares per-job workspaces"
+entrypoint = "node index.js"
+runtime = "node"
+port = 6001
+capabilities = ["clone_repo"]

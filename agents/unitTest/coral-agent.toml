@@ -1,0 +1,8 @@
+id = "unitTest"
+name = "Unit Test"
+version = "0.1.0"
+description = "Runs repo test suites and returns structured results"
+entrypoint = "node index.js"
+runtime = "node"
+port = 6002
+capabilities = ["run_tests"]

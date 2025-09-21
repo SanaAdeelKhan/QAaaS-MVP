@@ -1,0 +1,71 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.status-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.status-section li {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.status-section .up {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: green;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-section .down {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: red;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.command-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.command-section input {
+  padding: 6px 8px;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.command-section button {
+  padding: 6px 12px;
+}
+
+pre {
+  text-align: left;
+  background: #eee;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}

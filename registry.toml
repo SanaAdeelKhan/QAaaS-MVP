@@ -1,8 +1,17 @@
-[[local-agent]]
-path = "agents/firecrawl"
+[[agents]]
+id = "repoCloner"
+name = "Repo Cloner"
+url = "http://localhost:6001"
+manifest = "./Agents/repoCloner/coral-agent.toml"
 
-[[local-agent]]
-path = "agents/github"
+[[agents]]
+id = "unitTest"
+name = "Unit Test"
+url = "http://localhost:5002"
+manifest = "./Agents/unitTest/coral-agent.toml"
 
-[[local-agent]]
-path = "agents/interface"
+[[agents]]
+id = "aggregator"
+name = "Aggregator"
+url = "http://localhost:6003"
+manifest = "./Agents/aggregator/coral-agent.toml"

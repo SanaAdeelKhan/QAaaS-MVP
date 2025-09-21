@@ -1,0 +1,8 @@
+id = "aggregator"
+name = "Aggregator"
+version = "0.1.0"
+description = "Combines test outputs and produces final summaries"
+entrypoint = "node index.js"
+runtime = "node"
+port = 6003
+capabilities = ["aggregate_results"]
