@@ -1,6 +1,4 @@
-Here’s a clean and concise **README.md** for your QAaaS-MVP project:
 
-````markdown
 # QAaaS-MVP
 
 **QAaaS-MVP** is a multi-agent system built for automated QA (Quality Assurance) tasks. It consists of several independent agents that can be run locally or integrated with Coral Protocol for orchestration.
@@ -13,7 +11,7 @@ Here’s a clean and concise **README.md** for your QAaaS-MVP project:
 |----------------|-----------------------------------------------------------|------|
 | `repoCloner`   | Clones Git repositories (public or private)              | 6001 |
 | `unitTest`     | Runs automated unit tests on cloned repositories         | 5002 |
-| `aggregator`   | Aggregates results from multiple agents                  | 5003 |
+| `aggregator`   | Aggregates results from multiple agents                  | 6003 |
 
 ---
 
